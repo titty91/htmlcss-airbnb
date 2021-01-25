@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Kaushan Script', cursive;
+}
+
+#contain{
+  width: 100%;
+  height: 100vh;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 5px 5px 5px lightgrey;
+  margin: 20px 0px 20px 0px;
+  margin-top: 0;
+}
+
+/* città */
+.lisbona{
+  background-image: url("../img/lisbona.jpg");
+}
+
+.londra{
+  background-image: url("../img/londra.jpg");
+}
+
+.mantova{
+  background-image: url("../img/Mantova.jpg");
+}
+
+.vista{
+  position: relative;
+  background-size: cover;
+}
+
+.city{
+  position: absolute;
+  font-size: 100px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(70, 70, 70, 0.5); */
+  border-radius: 8px 8px 8px 8px;
+  padding: 20px;
+}
+
+/* effetti */
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.layer{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+
+}
